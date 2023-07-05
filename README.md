@@ -4,11 +4,11 @@
 ## Setup
 
 - Modify gch2.cfg - specifically you'll want the "entry-token"
---To get this value you must have a Gencon Account with no room already booked
---Open the Gencon profile and go to "Housing"
---Click "Go To Housing Portal" and "Yes" when prompted
---The value required is in your address bar
-- Install requirements
+  - To get this value you must have a Gencon Account with no room already booked  
+  - Open the Gencon profile and go to "Housing"
+  - Click "Go To Housing Portal" and "Yes" when prompted
+  - The value required is in your address bar
+- Install requirements  
 ```sh
 pip install -r -requirements.txt
 ```
@@ -40,11 +40,11 @@ Usually just on the initial searches.
 
 ### WARNING
 - In some testing it appeared that this autobooker also does not terminate the validity of a login string.
--- This means without the kill command in the loop when the autobooker runs, it will keep booking rooms.
-- I was able to book as many hotel rooms as I wanted on a single entry token.
-- The housing portal doesn't validate credit card, email, or any personal data so long as the format is correct.
+  - This means without the kill command in the loop when the autobooker runs, it will keep booking rooms.
+  - I was able to book as many hotel rooms as I wanted on a single entry token.
+  - The housing portal doesn't validate credit card, email, or any personal data so long as the format is correct.
 - This is a cool site - (https://www.vccgenerator.org/)
--- Or I'm sure one of those types of services has an API - that'd be fun to integrate in
+  - Or I'm sure one of those types of services has an API - that'd be fun to integrate in
 
 
 ## Background
